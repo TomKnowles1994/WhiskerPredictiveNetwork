@@ -11,7 +11,7 @@ Code accompanying the Robotics MSc Project "Predictive coding applied to the rem
   - cv2
   - matplotlib
   - scipy
-  - scikit-learn [^1]
+  - scikit-learn
 
 - (Optional) Install CUDA. This requires making a CUDA developer account on https://developer.nvidia.com/cuda-downloads and downloading the following installation:
 
@@ -35,6 +35,6 @@ Code accompanying the Robotics MSc Project "Predictive coding applied to the rem
 
 - Find the desired file and open it in Jupyter. They will load Jupyter Notebooks and reside in their own tabs. Though not usually a problem, it is recommended to only load one file at a time, as some state is shared between instances despite the best efforts of the author.
 
-- Run all cells via Cells -> Run All. To ensure a run with no carryover of state, for subsequent runs use Kernel -> Restart and Run All
+- Modify the filepath parameter of all instances of sio.loadmat() to point towards the 200805-Whiskerdata folder. If this data is not present, please contact Dr. Martin Pearson for the files.
 
-[^1] 
+- Run all cells via Cells -> Run All. To ensure a run with no carryover of state, for subsequent runs use Kernel -> Restart and Run All
