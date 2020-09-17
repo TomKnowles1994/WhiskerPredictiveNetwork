@@ -1,6 +1,13 @@
 # WhiskerPredictiveNetwork
 Code accompanying the Robotics MSc Project "Predictive coding applied to the removal of tactile reafferent noise"
 
+## To Review
+
+- Simply click on the Whisker Predictive Network v1 and/or v2 files in the repository. As they are Jupyter Notebooks, most of the outputs have been stored with the code.
+
+- v1 is the network without multi-timestep enhancements
+- v2 is the network with said enhancements
+
 ## To Install
 
 - Install the following Python packages via the pip package manager (with the general form 'pip install \[package\]'):
@@ -27,7 +34,7 @@ Code accompanying the Robotics MSc Project "Predictive coding applied to the rem
 
 ## To Run
 
-- Download both the "Annotated Whisker Predictive" files. v1 is the code for the Baseline LSTM and Whisker Predictive Network with single timesteps. v2 also contains the Baseline LSTM, but the Whisker Predictive Network has been modified to use multiple timesteps.
+- Download both the "Whisker Predictive Network" files. v1 is the code for the Baseline LSTM and Whisker Predictive Network with single timesteps. v2 also contains the Baseline LSTM, but the Whisker Predictive Network has been modified to use multiple timesteps.
 
 - Run Jupyter Notebook via Command Prompt (Windows) or Terminal (Linux or Mac), with the command 'jupyter notebook'.
 
